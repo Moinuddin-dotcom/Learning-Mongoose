@@ -1,13 +1,13 @@
 <!-- Mango server -->
 
-<!-- User Collection -->
+## User Collection
 - Name
 - Email
 - Password
 - Role
 - Phone
 
-<!-- Mango Collection  -->
+## Mango Collection 
 - Name,
 - Image
 - Variety,
@@ -17,7 +17,7 @@
 - Season
 
 
-<!-- Order Collection  -->
+## Order Collection 
 - userId,
 - mangoId,
 - quantity,
@@ -25,4 +25,7 @@
 - status
 - address
 
-
+## ENV
+NODE_ENV=development
+PORT=5000
+DATABASE_URL=mongodb+srv://TodoWithMongoose:kjlhGKtj6umsnOFA@cluster0.afwrd.mongodb.net/mango?retryWrites=true&w=majority&appName=Cluster0
